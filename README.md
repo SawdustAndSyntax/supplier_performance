@@ -118,14 +118,52 @@ Answer briefly (Markdown or notebook cell output is fine):
    - Key takeaways from the 3 questions above
 
 This is primarily a **data wrangling and feature engineering** exercise. You do not
-need to train a model.
+need to train a model for the core problem.
+
+---
+
+## 🔮 Bonus (Optional) — Predictive Model for Cost Overruns
+
+### Objective
+Build a **binary classification model** to predict which purchase orders will exceed
+their expected cost (`cost_variance_pct > 0.05`).
+
+### Steps
+1. Create `overrun_flag = 1` if `cost_variance_pct > 0.05`, else `0`.
+2. Split data by time:
+   - Train on POs before **2025-01-01**
+   - Validate on POs after **2025-01-01**
+3. Use engineered and supplier-level features:
+['delivery_delay_days','late_flag','po_value_usd','tier',
+'supplier_size','region_std','quality_rating']
+
+markdown
+Copy code
+4. Train a baseline model:
+- Logistic Regression or Random Forest Classifier
+- Evaluate with ROC AUC and PR AUC
+5. Interpret which features most drive cost overruns and how procurement
+could act on those insights.
+
+### Expected Performance
+- **ROC AUC:** ~0.70–0.80  
+- **PR AUC:** ~0.35–0.45  
+Key drivers typically include:
+- High `delivery_delay_days`
+- `late_flag = 1`
+- Low `quality_rating`
+- Small `supplier_size`
 
 ---
 
 ## Scoring Rubric (Guidance)
-- Correct / robust joins and fiscal year alignment .............. 30%
-- Clean handling of messy data (currency, missing dates, regions) 30%
-- Quality of engineered features and aggregations ................ 25%
-- Clarity of findings / business interpretation .................. 15%
 
-Target time: ~2 hours.
+| Area | Weight | Description |
+|-------|---------|-------------|
+| Joins & Key Alignment | 30% | Robust joins and correct fiscal-year mapping |
+| Cleaning & Normalization | 30% | Proper handling of currencies, missing data, regions |
+| Feature Engineering & Aggregation | 25% | Useful derived metrics and consistent definitions |
+| Interpretation & Communication | 15% | Clear business insights and supporting visuals |
+| **Bonus (optional)** | +15 pts | Effective and interpretable predictive model for cost overruns |
+
+Target time: ~2 hours (+ optional 1 hour for bonus)
