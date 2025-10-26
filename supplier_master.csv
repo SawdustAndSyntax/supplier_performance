@@ -1,0 +1,41 @@
+supplier_id,supplier_name,region,tier,supplier_size,quality_rating
+SUP-001,SUP-001_Industrial_Supply,North America,3,Small,81
+SUP-002,SUP-002_Industrial_Supply,Europe,1,Large,85
+SUP-003,SUP-003_Industrial_Supply,LATAM,3,Medium,64
+SUP-004,SUP-004_Industrial_Supply,North America,3,Medium,81
+SUP-005,SUP-005_Industrial_Supply,Europe,3,Medium,83
+SUP-006,SUP-006_Industrial_Supply,LATAM,1,Medium,91
+SUP-007,SUP-007_Industrial_Supply,Europe,1,Medium,90
+SUP-008,SUP-008_Industrial_Supply,Europe,3,Large,67
+SUP-009,SUP-009_Industrial_Supply,Europe,1,Medium,81
+SUP-010,SUP-010_Industrial_Supply,Europe,3,Small,77
+SUP-011,SUP-011_Industrial_Supply,Asia Pacific,1,Small,78
+SUP-012,SUP-012_Industrial_Supply,LATAM,1,Small,76
+SUP-013,SUP-013_Industrial_Supply,Europe,2,Small,80
+SUP-014,SUP-014_Industrial_Supply,Europe,1,Medium,74
+SUP-015,SUP-015_Industrial_Supply,Asia Pacific,3,Small,89
+SUP-016,SUP-016_Industrial_Supply,Europe,2,Medium,74
+SUP-017,SUP-017_Industrial_Supply,LATAM,2,Medium,93
+SUP-018,SUP-018_Industrial_Supply,Asia Pacific,3,Medium,81
+SUP-019,SUP-019_Industrial_Supply,Asia Pacific,2,Small,89
+SUP-020,SUP-020_Industrial_Supply,Europe,2,Medium,75
+SUP-021,SUP-021_Industrial_Supply,Europe,1,Small,73
+SUP-022,SUP-022_Industrial_Supply,LATAM,1,Large,73
+SUP-023,SUP-023_Industrial_Supply,Europe,3,Large,84
+SUP-024,SUP-024_Industrial_Supply,LATAM,2,Small,84
+SUP-025,SUP-025_Industrial_Supply,Europe,1,Small,76
+SUP-026,SUP-026_Industrial_Supply,Asia Pacific,2,Large,74
+SUP-027,SUP-027_Industrial_Supply,LATAM,2,Large,77
+SUP-028,SUP-028_Industrial_Supply,LATAM,3,Medium,88
+SUP-029,SUP-029_Industrial_Supply,Asia Pacific,1,Small,76
+SUP-030,SUP-030_Industrial_Supply,Asia Pacific,2,Medium,77
+SUP-031,SUP-031_Industrial_Supply,Europe,3,Medium,87
+SUP-032,SUP-032_Industrial_Supply,North America,1,Medium,82
+SUP-033,SUP-033_Industrial_Supply,LATAM,1,Medium,82
+SUP-034,SUP-034_Industrial_Supply,Europe,1,Large,94
+SUP-035,SUP-035_Industrial_Supply,EU,1,Small,80
+SUP-036,SUP-036_Industrial_Supply,Asia Pacific,3,Large,77
+SUP-037,SUP-037_Industrial_Supply,LATAM,1,Large,73
+SUP-038,SUP-038_Industrial_Supply,Europe,1,Small,95
+SUP-039,SUP-039_Industrial_Supply,North America,2,Medium,74
+SUP-040,SUP-040_Industrial_Supply,Asia Pacific,2,Large,76
